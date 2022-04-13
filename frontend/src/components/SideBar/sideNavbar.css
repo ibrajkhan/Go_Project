@@ -1,0 +1,41 @@
+.parent-div{
+    width: 44px;
+    top:81px;
+    height:800px;
+    background-color: #5861AE;
+    position: absolute;
+}
+.nav-home,.nav-create,.nav-show{
+    width: 44px;
+    height: 9vh;
+}
+.nav-home{
+    background-image: url("../../images/home-run-navbar.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
+.nav-home:hover{
+    cursor: pointer;
+}
+
+.nav-create{
+    background-image: url("../../images/list.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+.nav-show{
+    background-image: url("../../images/more-navbar.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+/* .nav-create{
+    background-color: #ffff;
+    background-image: url("../images/list-navbar.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+} */

@@ -1,0 +1,12 @@
+
+button.button__orders{
+    height: 32px;
+    width: 107px;
+    border-radius: 4px;
+    border-color: #5861AE;
+    padding: 0;
+}
+
+.button__orders:hover{
+    cursor: pointer;
+}

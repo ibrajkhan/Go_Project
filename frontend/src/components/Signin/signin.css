@@ -1,0 +1,89 @@
+.login_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5861AE;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 80vh;
+    border-bottom: 1px solid #5861AE ;
+}
+.login_left{
+    width: 50%;
+    padding: 5rem;
+}
+.login_left p h1{
+    margin: 3rem;
+}
+.login_right{
+    width: 50%;
+    padding: 5rem;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+}
+.login_left h1{
+    font-size: 5rem;
+    font-weight: 275px;
+}
+.login_left p{
+    color: #565657;
+}
+.login_right p{
+    color: #565657;
+}
+.login_form button{
+    color: #FFFFFF;
+    background: #4552C1 0% 0% no-repeat padding-box;
+}
+.login_bottom, .login_top{
+    margin: 4rem;
+}
+.p-tag,.h-tag{
+    margin: 1rem;
+}
+.login_bottom button{
+    margin: 1rem 1rem;
+}
+.login_form input{
+    border: none;
+    border-bottom: 1px #5861AE solid;
+    margin:  0rem 3rem 0.5rem 0rem;
+    width: 30vw;
+    height: 5vh ;
+}
+.login_mobile, .login_password,.login_mobile_red{
+    margin: 3rem 0rem;
+}
+.login_right h2{
+    font-size: 1.5rem;
+}
+.login_right label, i{
+    font-size: 0.75rem;
+}
+.login_right span{
+    text-align: right;
+}
+.login_password input{
+    background-image: url('../../images/padlock.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.login_form span{
+    width: 30vw;
+    text-align: right;
+}
+.login_button{
+    width: 30vw;
+    text-align: center;
+}
+.login_middle{
+    height: 30vh;
+    border: 0.5px solid #5861AE ;
+}
+.login_mobile_red input,select,textarea{
+    color: red;
+}
+.login_mobile_red span{
+    color: red;
+}
+.login_form input:focus{
+    outline: none;
+}

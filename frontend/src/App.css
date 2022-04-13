@@ -1,0 +1,49 @@
+.App {
+  width: 1405px;
+  height: 911px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 1405px;
+}
+
+.footer {
+  position: absolute;
+  top: 881px;
+  width: 1405px;
+}
+
+.orderList,
+.createOrder {
+  position: absolute;
+  top: 81px;
+  left: 45px;
+  height: 831px;
+  width: 1360px;
+  background-color: #0000000f;
+}
+
+.register__page,
+.signin__page {
+  position: absolute;
+  top: 81px;
+  height: 750px;
+}
+
+.sidebar__orders .nav-create {
+  background-color: #ffffff;
+  background-image: url("./images/list-navbar.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+.sidebar__create .nav-show {
+  background-color: #ffffff;
+  background-image: url("./images/more.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
